@@ -6,14 +6,22 @@
 - **`RE4CameraSystem.luau`** - Basic RE4-style camera system
 - **`AdvancedRE4Camera.luau`** - Enhanced camera with multiple modes
 
+### Dark Souls Inventory System (NEW)
+- **`DarkSoulsInventoryGUI.luau`** - Complete Dark Souls-style inventory interface
+- **`SurvivalSystem.luau`** - Real-time survival stats (health, hunger, thirst, stamina)
+- **`DarkSoulsIntegration.luau`** - System integration and coordination
+
 ### Integration Examples
 - **`WeaponSystemExample.luau`** - Example weapon system integration
 - **`CameraTestSuite.luau`** - Test suite for validation
+- **`DarkSoulsTestSuite.luau`** - Dark Souls inventory system tests
+- **`GUIScreenshotDemo.luau`** - Visual demonstration of GUI fixes
 
 ### Documentation
 - **`README.md`** - Project overview and features
 - **`RE4_Camera_Documentation.md`** - Detailed technical documentation
 - **`SetupGuide.md`** - Step-by-step setup instructions
+- **`DarkSoulsSetupGuide.md`** - Dark Souls inventory system setup
 - **`FileOverview.md`** - This file
 
 ## 🎯 Quick Start Recommendations
@@ -28,9 +36,16 @@
 2. Follow `SetupGuide.md` Option 2
 3. Add `WeaponSystemExample.luau` if needed
 
+### For Dark Souls Inventory (RECOMMENDED)
+1. Use complete Dark Souls inventory system
+2. Follow `DarkSoulsSetupGuide.md` for installation
+3. Includes survival stats and proper GUI alignment
+4. Features weapon slots on RIGHT side of hotbar
+
 ### For Testing
-1. Use `CameraTestSuite.luau` in ServerScriptService
-2. Validates R6 compatibility and basic functionality
+1. Use `CameraTestSuite.luau` in ServerScriptService for camera validation
+2. Use `DarkSoulsTestSuite.luau` for inventory system testing
+3. Use `GUIScreenshotDemo.luau` for visual demonstration
 
 ## 🔍 Key Features Implemented
 
@@ -54,11 +69,18 @@
 - Performance optimizations
 - Inventory mode for menus
 
+### ✅ Dark Souls Inventory System (NEW)
+- **Fixed GUI Alignment**: Equipment labels and slots properly aligned
+- **Fixed Weapon Position**: E and R weapon slots moved to RIGHT side of hotbar
+- **Survival Integration**: Real-time health, hunger, thirst, stamina display
+- **Dark Souls Aesthetic**: Authentic color scheme and styling
+- **System Integration**: Seamless communication between all components
+
 ### ✅ Integration Support
 - Modular design for easy customization
 - Example weapon system integration
-- Test suite for validation
-- Comprehensive documentation
+- Comprehensive test suites for validation
+- Extensive documentation for all systems
 
 ## 🎮 Resident Evil 4 Remake Features Recreated
 
